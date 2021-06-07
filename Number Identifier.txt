@@ -1,0 +1,10 @@
+number = int(input(&quot;Enter a number: &quot;)) #create a user input code
+
+def test(number): #create function test
+	if number &lt; 0: #if statement to check if number is negative
+		print(&#39;Negative&#39;)
+	elif number == 0: #if statement to check if number is not positive/negative
+		print(&#39;Zero&#39;)
+	else:
+		print(&#39;Positive&#39;) #if statement to check if number is positive
+test(number)
